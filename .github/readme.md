@@ -187,3 +187,11 @@ I got the same error:
 
 However, this time, the page was completely blank and I only saw that error in
 the CLI.
+
+## Retesting with the canary build
+
+I switched to the canary build of Next (`npm install next@canary`) and the `use`
+hook started working!
+
+But… Only when using the `Link` from the landing page, not when accessing the
+route directly in the browser, in that case, the same error remains.
