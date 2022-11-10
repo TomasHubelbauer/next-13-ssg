@@ -192,6 +192,8 @@ I got the same error:
 However, this time, the page was completely blank and I only saw that error in
 the CLI.
 
+I have filed this issue for this: https://github.com/vercel/next.js/issues/42762
+
 ## Retesting with the canary build
 
 I switched to the canary build of Next (`npm install next@canary`) and the `use`
