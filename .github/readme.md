@@ -93,6 +93,8 @@ I got this error:
 
 ![](rcc-use-error.png)
 
+I have filed this issue for this: https://github.com/vercel/next.js/issues/42761
+
 ## Attempting to use RCC with `useEffect` with SSG
 
 Since I was not able to use RSC or the new `use` hook, I figured I'd rever to 
