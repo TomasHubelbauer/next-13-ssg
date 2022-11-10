@@ -59,6 +59,8 @@ I got this error:
 
 ![](rsc-error.png)
 
+I have filed this issue for this: https://github.com/vercel/next.js/issues/42760
+
 ## Attempting to use RCC with `use` with SSG
 
 Not being able to use RSC, I figured I'd just use RCC with the new `use` React
