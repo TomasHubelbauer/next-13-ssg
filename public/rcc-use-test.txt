@@ -1,0 +1,1 @@
+This is dynamic content for the rsc-use-test route.
