@@ -61,6 +61,16 @@ I got this error:
 
 I have filed this issue for this: https://github.com/vercel/next.js/issues/42760
 
+The suggested solution is to use `fs` and read the file the Node way.
+I applied this suggestion and it works, but it is worth noting that `public/`
+must be used unlike when using `fetch` in RCC.
+
+However, with this fix applied, SSG is still not working:
+
+> PageNotFoundError: Cannot find module for page: /
+
+Somehow the landing page now presents an error.
+
 ## Attempting to use RCC with `use` with SSG
 
 Not being able to use RSC, I figured I'd just use RCC with the new `use` React

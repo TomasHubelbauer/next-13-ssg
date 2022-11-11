@@ -1,7 +1,8 @@
+import fs from 'fs';
 import Link from 'next/link';
 
 export default async function RSCTest() {
-  const text = await fetch('/rsc-test.txt').then(response => response.text());
+  const text = await fs.promises.readFile('public/rsc-test.txt', 'utf-8');
   return (
     <>
       <header>
